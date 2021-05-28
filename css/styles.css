@@ -11,6 +11,9 @@ body{
 .container-fluid{
   padding: 2% 6% 0;
 }
+.row{
+  margin: 0;
+}
 /* Navigation Bar */
 .navbar-brand img{
   width: 70%;
