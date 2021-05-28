@@ -6,15 +6,44 @@
 
 body{
   background-color: black;
+  font-size: 16px;
 }
 .container-fluid{
-  padding: 2% 8%;
+  padding: 2% 6% 0;
 }
 /* Navigation Bar */
 .navbar-brand img{
-  width: 10%;
+  width: 70%;
 }
 .nav-item{
-  font-family: 'shzc';
-  font-size: 2.5rem;
+  font-family: 'Eurostile-Regular';
+  font-size: 1.5rem;
+}
+/* Product Page */
+.product{
+  padding-top: 1%;
+}
+.product img{
+  width: 98%;
+  margin-top: 2%;
+}
+.product-item{
+  padding: 0;
+}
+/* Contact */
+.contact{
+  text-align: center;
+  font-size: 1.6rem;
+}
+.contact .fab{
+  margin: 0 4% 3%;
+}
+.contact a{
+    color: #e7e7e7;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: ease 0.5s opacity;
+}
+.contact a:hover {
+  opacity: 0.2;
 }
